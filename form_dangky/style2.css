@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    display: block;
+}
+.card{
+    background-color: white;
+    max-width: 25vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(201, 76, 76);
+   
+}
+.card h2{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 24px;
+}
+.form-register{
+    padding: 10px 10px ;
+
+}
+input[type=name], input[type=old],input[type=name],  input[type=phone],input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button 
+{
+    background-color: red;
+    color: white;
+    padding: 17px 27px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+} 
+.form-register input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}

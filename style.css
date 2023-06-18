@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+  position: relative;
+  height: 30px;
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+.cha-nav{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-right: 10px;
+   
+}
+.page{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 16px; 
+  text-align: center;
+}
+.page a {
+  text-decoration: none;
+font-size: 16px;
+color: white;
+margin-right: 80px;
+}
+
+.search{
+  height: 100%;
+padding-left: 90px;
+margin-left: 30px;
+display: flex;
+align-items: center;
+cursor: pointer;
+position: absolute;
+right: 0;
+top: 50%;
+
+}
+
+.nav-bar{
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.menu{
+  background-color: white;
+height: 100px;
+text-align: right;
+position: absolute;
+right: 0;
+margin-top: 23px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 30px;
+}
+.logo{
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  top: 10px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f5f5f5;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #fdfdfd;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.title{
+  width: 300px;
+ position: absolute;
+ padding-top: 50px;
+  color:  blue;
+}
+.cards{
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex; 
+  }
+.cards h2{
+  
+}
+.card{
+  padding-bottom: 10px;
+ 
+}
+.card-img{
+  margin-top: 90px;
+  margin-right: 90px;
+  
+}
+.card-content{
+ display: flex;
+ flex-direction: column;
+}
+.card-content h2{
+  padding-bottom: 10px;
+}
+.card-info{
+ display: inline-block
+}
+.price {
+  padding-left: 150px;
+  color: red;
+  display: flex;
+  
+}
+.price h3 {
+ 
+}
+
+.info{
+ margin-top:450px ;
+}
+.main-footer{
+  margin-bottom: 10px;
+  width: 75% ;
+  height: 80%;
+}
+.main-info{
+  padding-top: 10px;
+}
+.link{
+  <i class="fa-brands fa-facebook"></i>
+}
